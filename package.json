@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "chmod -R 777 node_modules/ && hexo generate"
+    "build": "chmod -R \\\"777\\\" node_modules/ && hexo generate"
   }
 }
 
