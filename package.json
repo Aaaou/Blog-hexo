@@ -12,6 +12,7 @@
     "version": "7.2.0"
   },
   "dependencies": {
+    "anzhiyu": "^1.0.3",
     "hexo": "^7.0.0",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",

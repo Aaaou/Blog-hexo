@@ -1,0 +1,7 @@
+const <%= data.lowerName %> = () => import('@/views<%= data.routerDest %>/<%= data.lowerName %>.vue')
+export default {
+  path: '<%= data.routerDest %>',
+  name: '<%= data.lowerName %>',
+  component: <%= data.lowerName %>,
+  children: []
+}
