@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "chmod -R \\\"777\\\" node_modules/ && hexo generate",
+    "build": "chmod -R 777 node_modules/ && hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
     "server": "hexo server"
