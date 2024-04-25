@@ -1,17 +1,10 @@
-{
-  "scripts": {
-    "build": "chmod -R \\\"777\\\" node_modules/ && hexo generate"
-  }
-}
-
-
 
 {
   "name": "hexo-site",
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "hexo generate",
+    "build": "chmod -R \\\"777\\\" node_modules/ && hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
     "server": "hexo server"
