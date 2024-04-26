@@ -103,13 +103,3 @@ theme: anzhiyu
 deploy:
   type: ''
 
-# Sponsor/reward
-reward:
-  enable: false
-  QR_code:
-    - img: 
-      link:
-      text: 微信
-    - img: 
-      link:
-      text: 支付宝

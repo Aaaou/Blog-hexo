@@ -2,6 +2,7 @@
 title: Hexo安装过程与问题解决
 date: 2024-04-25 18:39:29
 tags:
+typora-root-url: Hexo安装过程与问题解决.assets
 ---
 
 
@@ -27,11 +28,11 @@ npm install -g hexo-cli
 
 
 
-![image-20240425184750101](https://cdn.jsdelivr.net/gh/Aaaou/Blog-hexo/source/_posts/imgs/imgimage-20240425184750101.png)
+![image-20240425184750101](https://jsdelivr.codeqihan.com/gh/Aaaou/Blog-hexo/source/_posts/imgs/imgimage-20240425184750101.png)
 
 找一个准备作为博客仓库的文件夹，地址栏全选输入CMD（也可以直接在cmd里cd到该文件夹），此时我已建站，因此有个myblog
 
-![image-20240425185141220](https://cdn.jsdelivr.net/gh/Aaaou/Blog-hexo/source/_posts/imgs/imgimage-20240425185141220.png)
+![image-20240425185141220](/image-20240425185141220.png)
 
 ```shell
 hexo init myblog
@@ -39,7 +40,7 @@ hexo init myblog
 
 执行之后正确输出如下
 
-![image-20240425185325821](https://cdn.jsdelivr.net/gh/Aaaou/Blog-hexo/source/_posts/imgs/imgimage-20240425185325821.png)
+![image-20240425185325821](https://jsdelivr.codeqihan.com/gh/Aaaou/Blog-hexo/source/_posts/imgs/imgimage-20240425185325821.png)
 
 此时运行
 
@@ -53,7 +54,7 @@ hexo server
 
 
 
-![image-20240425185601131](https://cdn.jsdelivr.net/gh/Aaaou/Blog-hexo/source/_posts/imgs/imgimage-20240425185601131.png)
+![image-20240425185601131](https://jsdelivr.codeqihan.com/gh/Aaaou/Blog-hexo/source/_posts/imgs/imgimage-20240425185601131.png)
 
 ### 主题配置
 
@@ -89,7 +90,7 @@ cp -rf ./themes/anzhiyu/_config.yml ./_config.anzhiyu.yml
 
 最后在项目根目录找到网页配置文件，将theme后的值修改成anzhiyu,作者和博客地址什么的也是在这个配置文件
 
-![image-20240425191140144](https://cdn.jsdelivr.net/gh/Aaaou/Blog-hexo/source/_posts/imgs/imgimage-20240425191140144.png)
+![image-20240425191140144](https://jsdelivr.codeqihan.com/gh/Aaaou/Blog-hexo/source/_posts/imgs/imgimage-20240425191140144.png)
 
 设置完毕后重新唤醒网页，我这个稍微改了点东西，一般正常的部署完是作者设置的hello world
 
@@ -97,9 +98,9 @@ cp -rf ./themes/anzhiyu/_config.yml ./_config.anzhiyu.yml
 hexo server
 ```
 
-![image-20240425191627146](https://cdn.jsdelivr.net/gh/Aaaou/Blog-hexo/source/_posts/imgs/imgimage-20240425191627146.png)
+![image-20240425191627146](https://jsdelivr.codeqihan.com/gh/Aaaou/Blog-hexo/source/_posts/imgs/imgimage-20240425191627146.png)
 
-![image-20240425191755468](https://cdn.jsdelivr.net/gh/Aaaou/Blog-hexo/source/_posts/imgs/imgimage-20240425191755468.png)
+![image-20240425191755468](https://jsdelivr.codeqihan.com/gh/Aaaou/Blog-hexo/source/_posts/imgs/imgimage-20240425191755468.png)
 
 至此，正常的项目落地教程结束，接下来开始GitHub+vercel部署教程：
 
@@ -129,7 +130,7 @@ git pull origin master //将线上仓库更新到本地（若本地仓库与线�
 
 执行完之后大致仓库如下
 
-![image-20240425192752256](https://cdn.jsdelivr.net/gh/Aaaou/Blog-hexo/source/_posts/imgs/imgimage-20240425192752256.png)
+![image-20240425192752256](https://jsdelivr.codeqihan.com/gh/Aaaou/Blog-hexo/source/_posts/imgs/imgimage-20240425192752256.png)
 
 ### Vercel
 
@@ -137,19 +138,19 @@ git pull origin master //将线上仓库更新到本地（若本地仓库与线�
 
 [vercel/vercel: Develop. Preview. Ship. (github.com)](https://github.com/vercel/vercel)
 
-![image-20240425193221563](https://cdn.jsdelivr.net/gh/Aaaou/Blog-hexo/source/_posts/imgs/imgimage-20240425193221563.png)
+![image-20240425193221563](https://jsdelivr.codeqihan.com/gh/Aaaou/Blog-hexo/source/_posts/imgs/imgimage-20240425193221563.png)
 
 注册完成登录见如下图片，点击**右边**那个**Add New**-Project
 
-![](https://cdn.jsdelivr.net/gh/Aaaou/Blog-hexo/source/_posts/imgs/imgimage-20240425192903088.png)
+![](https://jsdelivr.codeqihan.com/gh/Aaaou/Blog-hexo/source/_posts/imgs/imgimage-20240425192903088.png)
 
 选定咱创建的仓库
 
-![image-20240425193853050](https://cdn.jsdelivr.net/gh/Aaaou/Blog-hexo/source/_posts/imgs/imgimage-20240425193853050.png)
+![image-20240425193853050](https://jsdelivr.codeqihan.com/gh/Aaaou/Blog-hexo/source/_posts/imgs/imgimage-20240425193853050.png)
 
 修改名称（只会影响vercel随机分配的域名）
 
-![image-20240425194025109](Hexo%E5%AE%89%E8%A3%85%E8%BF%87%E7%A8%8B%E4%B8%8E%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3.assets/image-20240425194025109.png)
+![image-20240425194025109](https://jsdelivr.codeqihan.com/gh/Aaaou/Blog-hexo/source/_posts/imgs/imgimgimage-20240425194025109.png)
 
 ## 此时你大概率会报错
 
@@ -169,7 +170,7 @@ chmod -R 777 node_modules/ && hexo generate
 
 代表赋予所有用户（拥有者、所属组、其他用户）读取、写入和执行的权限。~~这段授权代码让我想起了实习时候搞嵌入式开发的悲惨历程~~
 
-![image-20240425194631335](https://cdn.jsdelivr.net/gh/Aaaou/Blog-hexo/source/_posts/imgs/imgimage-20240425194631335.png)
+![image-20240425194631335](https://jsdelivr.codeqihan.com/gh/Aaaou/Blog-hexo/source/_posts/imgs/imgimage-20240425194631335.png)
 
 之后执行以下内容将更新加载到仓库
 
@@ -194,7 +195,7 @@ git push -u origin master 	//将本地仓库更新到线上
 
 如果咱自己有域名的话（没有的话不行哦，得自己购买并且实名），按照以下操作
 
-![image-20240425195944460](https://cdn.jsdelivr.net/gh/Aaaou/Blog-hexo/source/_posts/imgs/imgimage-20240425195944460.png)
+![image-20240425195944460](https://jsdelivr.codeqihan.com/gh/Aaaou/Blog-hexo/source/_posts/imgs/imgimage-20240425195944460.png)
 
 一般有A和CNAME两种自定义域名方式
 
@@ -212,7 +213,7 @@ git push -u origin master 	//将本地仓库更新到线上
 
 最后完成后显示如图（虽然不知道打码的意义是什么但是按照惯例域名还是码了）
 
-![image-20240425200457461](https://cdn.jsdelivr.net/gh/Aaaou/Blog-hexo/source/_posts/imgs/imgimage-20240425200457461.png)
+![image-20240425200457461](https://jsdelivr.codeqihan.com/gh/Aaaou/Blog-hexo/source/_posts/imgs/imgimage-20240425200457461.png)
 
 最后就可以通过域名访问咱自己的博客了~
 
