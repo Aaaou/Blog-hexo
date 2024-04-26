@@ -32,7 +32,7 @@ npm install -g hexo-cli
 
 找一个准备作为博客仓库的文件夹，地址栏全选输入CMD（也可以直接在cmd里cd到该文件夹），此时我已建站，因此有个myblog
 
-![image-20240425185141220](/image-20240425185141220.png)
+![imgimage-20240425185141220](https://jsdelivr.codeqihan.com/gh/Aaaou/Blog-hexo/source/_posts/imgs/imgimgimage-20240425185141220-17141013416943.png)
 
 ```shell
 hexo init myblog
