@@ -98,7 +98,7 @@ cp -rf ./themes/anzhiyu/_config.yml ./_config.anzhiyu.yml
 hexo server
 ```
 
-![image-20240425191627146](https://jsdelivr.codeqihan.com/gh/Aaaou/Blog-hexo/source/_posts/imgs/imgimage-20240425191627146.png)
+![image-20240425191627146](https://jsdelivr.codeqihan.com/gh/Aaaou/Blog-hexo/source/_posts/imgs/imgimgimage-20240425191627146.png)
 
 ![image-20240425191755468](https://jsdelivr.codeqihan.com/gh/Aaaou/Blog-hexo/source/_posts/imgs/imgimage-20240425191755468.png)
 
@@ -138,7 +138,7 @@ git pull origin master //将线上仓库更新到本地（若本地仓库与线�
 
 [vercel/vercel: Develop. Preview. Ship. (github.com)](https://github.com/vercel/vercel)
 
-![image-20240425193221563](https://jsdelivr.codeqihan.com/gh/Aaaou/Blog-hexo/source/_posts/imgs/imgimage-20240425193221563.png)
+![image-20240425193221563](https://jsdelivr.codeqihan.com/gh/Aaaou/Blog-hexo/source/_posts/imgs/imgimgimage-20240425193221563.png)
 
 注册完成登录见如下图片，点击**右边**那个**Add New**-Project
 
@@ -150,7 +150,7 @@ git pull origin master //将线上仓库更新到本地（若本地仓库与线�
 
 修改名称（只会影响vercel随机分配的域名）
 
-![image-20240425194025109](https://jsdelivr.codeqihan.com/gh/Aaaou/Blog-hexo/source/_posts/imgs/imgimgimage-20240425194025109.png)
+![image-20240425194025109](https://jsdelivr.codeqihan.com/gh/Aaaou/Blog-hexo/source/_posts/imgs/imgimgimgimage-20240425194025109.png)
 
 ## 此时你大概率会报错
 
