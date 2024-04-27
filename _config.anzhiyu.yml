@@ -1,3 +1,23 @@
+
+centerConsole:
+  enable: true
+  card_tags:
+    enable: true
+    limit: 40 # if set 0 will show all
+    color: false
+    sort_order: # Don't modify the setting unless you know how it works
+    highlightTags:
+      # - Hexo
+      # - 前端
+  card_archives:
+    enable: true
+    type: monthly # yearly or monthly
+    format: MMMM YYYY # eg: YYYY年MM月
+    order: -1 # Sort of order. 1, asc for ascending; -1, desc for descending
+    limit: 8 # if set 0 will show all
+    sort_order: # Don't modify the setting unless you know how it works
+  
+
 # Sponsor/reward
 reward:
   enable: false
@@ -78,19 +98,3 @@ aside:
     sort_order: # Don't modify the setting unless you know how it works
     
 
-# nav相关配置
-nav:
-  enable: false
-  travelling: false
-  clock: true
-  menu:
-    - title: 网页
-      item:
-        - name: 博客
-          link: https://blog.aou123.xyz/
-          icon: /img/favicon.ico
-    - title: 项目
-      item:
-        - name: Next-Gpt本地部署
-          link: https://chat.aou123.xyz/
-          icon: 

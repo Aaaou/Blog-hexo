@@ -103,3 +103,18 @@ theme: anzhiyu
 deploy:
   type: ''
 
+nav:
+  enable: false
+  travelling: false
+  clock: false
+  menu:
+    - title: 网页
+      item:
+        - name: 博客
+          link: https://blog.aou123.xyz/
+          icon: /img/favicon.ico
+    - title: 项目
+      item:
+        - name: Next-Gpt本地部署
+          link: https://chat.aou123.xyz/
+          icon: 
