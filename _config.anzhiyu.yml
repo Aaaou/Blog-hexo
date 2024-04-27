@@ -76,11 +76,11 @@ aside:
     post_count: true
     last_push_date: false
     sort_order: # Don't modify the setting unless you know how it works
-
+    
 
 # nav相关配置
 nav:
-  enable: true
+  enable: false
   travelling: false
   clock: true
   menu:
