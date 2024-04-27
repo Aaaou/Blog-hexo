@@ -23,9 +23,9 @@ menu:
 
 # nav相关配置
 nav:
-  enable: false
-  travelling: false
-  clock: false
+  enable: true
+  travelling: true
+  clock: true
   menu:
     - title: 网页
       item:
@@ -1073,7 +1073,7 @@ friends_vue:
   apiurl: # 朋友圈后端地址
   top_tips: 使用 友链朋友圈 订阅友链最新文章
   top_background:
-
+cdn
 # 深色模式粒子效果canvas
 universe:
   enable: true

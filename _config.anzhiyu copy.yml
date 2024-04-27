@@ -76,3 +76,21 @@ aside:
     post_count: true
     last_push_date: false
     sort_order: # Don't modify the setting unless you know how it works
+
+
+# nav相关配置
+nav:
+  enable: true
+  travelling: true
+  clock: true
+  menu:
+    - title: 网页
+      item:
+        - name: 博客
+          link: https://blog.aou123.xyz/
+          icon: /img/favicon.ico
+    - title: 项目
+      item:
+        - name: Next-Gpt本地部署
+          link: https://chat.aou123.xyz/
+          icon: 
