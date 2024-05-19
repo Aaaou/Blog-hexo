@@ -20,12 +20,13 @@ menu:
   #   关于本人: /about/ || anzhiyu-icon-paper-plane
   #   闲言碎语: /essay/ || anzhiyu-icon-lightbulb
   #   随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
-
+# Sponsor/reward
 # nav相关配置
+
 nav:
-  enable: true
-  travelling: true
-  clock: true
+  enable: false
+  travelling: false
+  clock: false
   menu:
     - title: 网页
       item:
@@ -834,7 +835,7 @@ aside:
     post_count: true
     last_push_date: false
     sort_order: # Don't modify the setting unless you know how it works
-
+nav
 # busuanzi count for PV / UV in site
 # 访问人数
 busuanzi:
@@ -846,7 +847,7 @@ busuanzi:
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
   enable: true
-  publish_date: 4/1/2021 00:00:00
+  publish_date: 4/4/2024 00:00:00
 
 # Console - Newest Comments
 newest_comments:
@@ -1136,7 +1137,6 @@ ptool:
   share_copyurl: true
   categories: false # 是否显示分类
   mode: # 运营模式与责任，不配置不显示
-
 # 欢迎语配置
 greetingBox:
   enable: false #开启后必须配置下面的list对应的时间段，不然会出现小白条
