@@ -93,7 +93,8 @@ CDN加速用的是https://jsdelivr.codeqihan.com/
 
 ```shell
 git add .
-git commit "博客更新"
+git commit -m "博客更新"
+git pull
 git push
 ```
 
