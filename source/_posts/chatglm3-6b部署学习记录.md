@@ -17,19 +17,19 @@ categories: 开发教程
 
 感谢阿里云的免费计算资源
 
-![image-20240520163240884](chatglm3-6b部署学习记录.assets/image-20240520163240884.png)
+![image-20240520163240884](https://jsdelivr.codeqihan.com/gh/Aaaou/Blog-hexo/source/_posts/imgs/imgimage-20240520163240884.png)
 
 稍等一会之后点选免费试用
 
-![image-20240520163848394](chatglm3-6b部署学习记录.assets/image-20240520163848394.png)
+![image-20240520163848394](https://jsdelivr.codeqihan.com/gh/Aaaou/Blog-hexo/source/_posts/imgs/imgimage-20240520163848394.png)
 
 点选**第一个**即可，其他两个我暂时还不了解，有需要的可以自己申请用
 
-![image-20240520164011525](chatglm3-6b部署学习记录.assets/image-20240520164011525.png)
+![image-20240520164011525](https://jsdelivr.codeqihan.com/gh/Aaaou/Blog-hexo/source/_posts/imgs/imgimage-20240520164011525.png)
 
 点击之后会跳转到控制台，在控制台点选**新建实例**（因为我之前创建过因此存在实例）
 
-![image-20240520164107448](chatglm3-6b部署学习记录.assets/image-20240520164107448.png)
+![image-20240520164107448](https://jsdelivr.codeqihan.com/gh/Aaaou/Blog-hexo/source/_posts/imgs/imgimage-20240520164107448.png)
 
 配置选择GPU服务器，其中**A10**和**V100**是可以通过免费计算时抵扣的，二者的区别如下：
 
@@ -41,7 +41,7 @@ V100：计算能力更强，显存比A10小，整体多2G内存
 
 （也可以多开资源，但是目前我没尝试过）
 
-![image-20240520164537417](chatglm3-6b部署学习记录.assets/image-20240520164537417.png)
+![image-20240520164537417](https://jsdelivr.codeqihan.com/gh/Aaaou/Blog-hexo/source/_posts/imgs/imgimage-20240520164537417.png)
 
 环境选择，我这里是目前官方默认的，建议
 
@@ -51,11 +51,11 @@ V100：计算能力更强，显存比A10小，整体多2G内存
 
 以上环境是目前主流pytorch深度学习项目选择的环境，你也可以自己选择喜欢的镜像。
 
-![image-20240520165156759](chatglm3-6b部署学习记录.assets/image-20240520165156759.png)
+![image-20240520165156759](https://jsdelivr.codeqihan.com/gh/Aaaou/Blog-hexo/source/_posts/imgs/imgimage-20240520165156759.png)
 
 配置完成后在交互式建模界面可以看到实例，默认应该是开好机的，图示中我已经关机了
 
-![image-20240520165824955](chatglm3-6b部署学习记录.assets/image-20240520165824955.png)
+![image-20240520165824955](https://jsdelivr.codeqihan.com/gh/Aaaou/Blog-hexo/source/_posts/imgs/imgimage-20240520165824955.png)
 
 至此，硬件环境安装到此结束。
 
@@ -91,21 +91,21 @@ pip install -r requirements.txt
 # 安装依赖
 ```
 
-![image-20240520172513472](chatglm3-6b部署学习记录.assets/image-20240520172513472.png)
+![image-20240520172513472](https://jsdelivr.codeqihan.com/gh/Aaaou/Blog-hexo/source/_posts/imgs/imgimage-20240520172513472.png)
 
 有一些版本相关的报错，先跑后面的项目，如果出现依赖问题，再进行修改。
 
 点击阿里云左上角文件标志，进入webcodes/ChatGLM3/basic_demo选择**cli_demo.py**文件
 
-![image-20240520173117842](chatglm3-6b部署学习记录.assets/image-20240520173117842.png)
+![image-20240520173117842](https://jsdelivr.codeqihan.com/gh/Aaaou/Blog-hexo/source/_posts/imgs/imgimage-20240520173117842.png)
 
 修改文件路径，用终端cd到对应模型的文件夹下，pwd打出路径进行复制
 
-![image-20240520173551060](chatglm3-6b部署学习记录.assets/image-20240520173551060.png)
+![image-20240520173551060](https://jsdelivr.codeqihan.com/gh/Aaaou/Blog-hexo/source/_posts/imgs/imgimage-20240520173551060.png)
 
 最后在cli里替换掉路径就可以了
 
-![image-20240520173656400](chatglm3-6b部署学习记录.assets/image-20240520173656400.png)
+![image-20240520173656400](https://jsdelivr.codeqihan.com/gh/Aaaou/Blog-hexo/source/_posts/imgs/imgimage-20240520173656400.png)
 
 之后回到对应目录运行前端
 
@@ -114,13 +114,13 @@ cd /mnt/workspace/models/webcodes/ChatGLM3/basic_demo/
 python cli_demo.py
 ```
 
-![image-20240520174224228](chatglm3-6b部署学习记录.assets/image-20240520174224228.png)
+![image-20240520174224228](https://jsdelivr.codeqihan.com/gh/Aaaou/Blog-hexo/source/_posts/imgs/imgimage-20240520174224228.png)
 
 此时已经正常启动小黑窗进行对话了，然后上面出现的报错是因为一开始输入了**中文逗号**，无法识别为字符串，不清楚是python的问题还是编码的问题。
 
 之后同样是对gradio前端和stream前端路径进行修改，让其读取本地的模型
 
-![image-20240520174620647](chatglm3-6b部署学习记录.assets/image-20240520174620647.png)
+![image-20240520174620647](https://jsdelivr.codeqihan.com/gh/Aaaou/Blog-hexo/source/_posts/imgs/imgimage-20240520174620647.png)
 
 修改完成后ctrl+c退出之前运行的小黑窗，运行gradio前端
 
@@ -138,11 +138,11 @@ pip install peft
 
 此时重新启动gradio前端就可以正常运行了（**点击阿里云给的本地ip，会自动跳转到域名链接，这一点很不错**）
 
-![image-20240520175229381](chatglm3-6b部署学习记录.assets/image-20240520175229381.png)
+![image-20240520175229381](https://jsdelivr.codeqihan.com/gh/Aaaou/Blog-hexo/source/_posts/imgs/imgimage-20240520175229381.png)
 
 进入gradio前端发现无法正常对话，推测是gradio版本的问题，因为终端出现了输入信息，但是没有返回
 
-![image-20240520175739297](chatglm3-6b部署学习记录.assets/image-20240520175739297.png)
+![image-20240520175739297](https://jsdelivr.codeqihan.com/gh/Aaaou/Blog-hexo/source/_posts/imgs/imgimage-20240520175739297.png)
 
 ```shell
 pip show gradio
@@ -155,7 +155,7 @@ pip show gradio
 
 换成4.2的版本试过，还是不行，命令行提示4.29版本可以更新，4.29也不行
 
-![image-20240520180624589](chatglm3-6b部署学习记录.assets/image-20240520180624589.png)
+![image-20240520180624589](https://jsdelivr.codeqihan.com/gh/Aaaou/Blog-hexo/source/_posts/imgs/imgimage-20240520180624589.png)
 
 ```shell
 pip install "gradio>=3.38.0,<4.0.0"
@@ -163,7 +163,7 @@ pip install "gradio>=3.38.0,<4.0.0"
 
 最终使用了3.50版本，成功解决了部署问题。
 
-![image-20240520181333764](chatglm3-6b部署学习记录.assets/image-20240520181333764.png)
+![image-20240520181333764](https://jsdelivr.codeqihan.com/gh/Aaaou/Blog-hexo/source/_posts/imgs/imgimage-20240520181333764.png)
 
 
 
