@@ -3,6 +3,8 @@ title: hexo博客更新文章教程
 date: 2024-05-19 15:13:41
 tags: Hexo
 categories: 开发教程
+top_img: https://s21.ax1x.com/2024/05/20/pkKysN8.png
+cover: https://s21.ax1x.com/2024/05/20/pkKysN8.png
 ---
 
 ## 本文将系统性介绍如何通过hexo博客写文章上传

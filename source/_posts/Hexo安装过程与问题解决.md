@@ -4,6 +4,8 @@ date: 2024-04-25 18:39:29
 tags: Hexo
 typora-root-url: Hexo安装过程与问题解决.assets
 categories: 开发教程
+top_img: https://s21.ax1x.com/2024/05/20/pkKysN8.png
+cover: https://s21.ax1x.com/2024/05/20/pkKysN8.png
 ---
 
 

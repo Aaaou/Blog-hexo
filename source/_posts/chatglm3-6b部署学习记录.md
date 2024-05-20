@@ -3,6 +3,8 @@ title: chatglm3-6b部署学习记录
 date: 2024-05-20 16:25:25
 tags: LLM
 categories: 开发教程
+top_img: https://s21.ax1x.com/2024/05/20/pkKyVtU.png
+cover: https://s21.ax1x.com/2024/05/20/pkKyVtU.png
 ---
 
 ## 本文作为re0部署ChatGLM3-6B模型过程的记录
