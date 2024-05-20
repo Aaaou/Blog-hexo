@@ -464,3 +464,13 @@ local_search:
   enable: true
   preload: false
   CDN:
+
+mathjax:
+  enable: true
+  per_page: false
+
+# KaTeX
+katex:
+  enable: false
+  per_page: false
+  hide_scrollbar: true

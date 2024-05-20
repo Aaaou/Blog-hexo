@@ -1,4 +1,4 @@
-
+大学
 menu:
   # 文章:
   #   隧道: /archives/ || anzhiyu-icon-box-archive
@@ -130,7 +130,7 @@ mathjax:
 
 # KaTeX
 katex:
-  enable: false
+  enable: true
   per_page: false
   hide_scrollbar: true
 
@@ -849,7 +849,7 @@ busuanzi:
 runtimeshow:
   enable: true
   publish_date: 4/4/2024 00:00:00
-
+banner
 # Console - Newest Comments
 newest_comments:
   enable: true
