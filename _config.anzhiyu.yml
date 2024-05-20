@@ -2,7 +2,7 @@ menu:
   文章:
     隧道: /archives/ || anzhiyu-icon-box-archive
     #分类: /categories/ || anzhiyu-icon-shapes
-    #标签: /tags/ || anzhiyu-icon-tags
+    标签: /tags/ || anzhiyu-icon-tags
 
   友链:
     # 友人帐: /link/ || anzhiyu-icon-link
@@ -460,3 +460,7 @@ greetingBox:
       endTime: 24
 
 
+local_search:
+  enable: true
+  preload: false
+  CDN:

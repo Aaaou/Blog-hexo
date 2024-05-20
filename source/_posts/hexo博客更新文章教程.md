@@ -1,7 +1,7 @@
 ---
 title: hexo博客更新文章教程
 date: 2024-05-19 15:13:41
-tags: 
+tags: Hexo
 categories: 开发教程
 ---
 
