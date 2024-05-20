@@ -3,6 +3,7 @@ title: Hexo安装过程与问题解决
 date: 2024-04-25 18:39:29
 tags:
 typora-root-url: Hexo安装过程与问题解决.assets
+categories: 开发教程
 ---
 
 

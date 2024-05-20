@@ -1,37 +1,37 @@
 menu:
   文章:
     隧道: /archives/ || anzhiyu-icon-box-archive
-    分类: /categories/ || anzhiyu-icon-shapes
-    标签: /tags/ || anzhiyu-icon-tags
+    #分类: /categories/ || anzhiyu-icon-shapes
+    #标签: /tags/ || anzhiyu-icon-tags
 
   友链:
-    友人帐: /link/ || anzhiyu-icon-link
-    朋友圈: /fcircle/ || anzhiyu-icon-artstation
+    # 友人帐: /link/ || anzhiyu-icon-link
+    # 朋友圈: /fcircle/ || anzhiyu-icon-artstation
     留言板: /comments/ || anzhiyu-icon-envelope
 
   我的:
     音乐馆: /music/ || anzhiyu-icon-music
-    追番页: /bangumis/ || anzhiyu-icon-bilibili
-    相册集: /album/ || anzhiyu-icon-images
-    小空调: /air-conditioner/ || anzhiyu-icon-fan
+    # 追番页: /bangumis/ || anzhiyu-icon-bilibili
+    # 相册集: /album/ || anzhiyu-icon-images
+    # 小空调: /air-conditioner/ || anzhiyu-icon-fan
 
   关于:
-    关于本人: /about/ || anzhiyu-icon-paper-plane
-    闲言碎语: /essay/ || anzhiyu-icon-lightbulb
+    # 关于本人: /about/ || anzhiyu-icon-paper-plane
+    # 闲言碎语: /essay/ || anzhiyu-icon-lightbulb
     随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
 
 # nav相关配置
 nav:
-  enable: false
+  enable: true
+  clock: true
   travelling: false
-  clock: false
   menu:
     - title: 网页
       item:
         - name: 博客
           link: https://blog.aou123.xyz/
           icon: /img/favicon.ico
-    - title: 项目
+    - title: 玩具项目
       item:
         - name: Next-Gpt本地部署
           link: https://chat.aou123.xyz/
@@ -79,8 +79,8 @@ aside:
     description: <div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);">这有关于<b style="color:#fff">产品、设计、开发</b>相关的问题和看法，还有<b style="color:#fff">文章翻译</b>和<b style="color:#fff">分享</b>。</div><div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);">相信你可以在这里找到对你有用的<b style="color:#fff">知识</b>和<b style="color:#fff">教程</b>。</div>
     name_link: /about
   card_announcement:
-    enable: false
-    content: 欢迎来看我的博客鸭~
+    enable: true
+    content: 欢迎来看我的博客,有事联系邮箱2832766481@qq.com~
   card_weixin:
     enable: true
     face: ##头像下面的模块 可以放两张图
@@ -115,4 +115,348 @@ aside:
     post_count: true
     last_push_date: false
     sort_order: # Don't modify the setting unless you know how it works
+
+# 作者卡片 状态
+author_status:
+  enable: true
+  # 可以是任何图片，建议放表情包或者emoji图片，效果都很好，[表情包速查](https://emotion.xiaokang.me/)
+  statusImg: "https://bu.dusays.com/2023/08/24/64e6ce9c507bb.png"
+  skills:
+    - 🤖️ 数码科技爱好者
+    - 🔍 分享与热心帮助
+    - 🏠 智能家居小能手
+    - 🔨 设计开发一条龙
+    - 🤝 专修交互与设计
+    - 🏃 脚踏实地行动派
+    - 🧱 团队小组发动机
+    - 💢 壮汉人狠话不多
+
+# Time difference between publish date and now (网页运行时间)
+# Formal: Month/Day/Year Time or Year/Month/Day Time
+runtimeshow:
+  enable: true
+  publish_date: 4/1/2024 00:00:00
+
+footer:
+  owner:
+    enable: true
+    since: 2024
+  custom_text:
+  runtime:
+    enable: true
+    launch_time: 04/01/2024 00:00:00 # 网站上线时间
+    work_img: https://npm.elemecdn.com/anzhiyu-blog@2.0.4/img/badge/安知鱼-上班摸鱼中.svg
+    work_description: 为天地立心,为生民立命,为往圣继绝学,为万世开太平
+    offduty_img: https://npm.elemecdn.com/anzhiyu-blog@2.0.4/img/badge/安知鱼-下班啦.svg
+    offduty_description: 休息中zzz
+  # 徽标部分配置项 https://shields.io/
+  # https://img.shields.io/badge/CDN-jsDelivr-orange?style=flat&logo=jsDelivr
+  bdageitem:
+    enable: false
+    list:
+      - link: https://hexo.io/ #徽标指向网站链接
+        shields: https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Frame-Hexo.svg #徽标API
+        message: 博客框架为Hexo_v5.4.0 #徽标提示语
+      - link: https://blog.anheyu.com/
+        shields: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.9/img/Theme-AnZhiYu-2E67D3.svg
+        message: 本站使用AnZhiYu主题
+      # - link: https://www.dogecloud.com/
+      #   shields: https://npm.elemecdn.com/anzhiyu-blog@2.2.0/img/badge/CDN-多吉云-3693F3.svg
+      #   message: 本站使用多吉云为静态资源提供CDN加速
+      # - link: https://github.com/
+      #   shields: https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Source-Github.svg
+      #   message: 本站项目由Github托管
+      # - link: http://creativecommons.org/licenses/by-nc-sa/4.0/
+      #   shields: https://npm.elemecdn.com/anzhiyu-blog@2.2.0/img/badge/Copyright-BY-NC-SA.svg
+      #   message: 本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可
+  socialBar:
+    enable: true
+    centerImg:
+    left:
+       - title: email
+         link: mailto:2832766481@qq.com
+         icon: anzhiyu-icon-envelope
+      # - title: 微博
+      #   link: https://weibo.com/u/6378063631
+      #   icon: anzhiyu-icon-weibo
+      # - title: facebook
+      #   link: https://www.facebook.com/profile.php?id=100092208016287&sk=about
+      #   icon: anzhiyu-icon-facebook1
+      # - title: RSS
+      #   link: atom.xml
+      #   icon: anzhiyu-icon-rss
+    right:
+       - title: Github
+         link: https://github.com/aaaou
+         icon: anzhiyu-icon-github
+      # - title: Bilibili
+      #   link: https://space.bilibili.com/372204786
+      #   icon: anzhiyu-icon-bilibili
+      # - title: 抖音
+      #   link: https://v.douyin.com/DwCpMEy/
+      #   icon: anzhiyu-icon-tiktok
+      # - title: CC
+      #   link: /copyright
+      #   icon: anzhiyu-icon-copyright-line
+  list:
+    enable: false
+    randomFriends: 3
+    project:
+      # - title: 服务
+      #   links:
+      #     - title: 51la统计
+      #       link: https://v6.51.la/
+      #     - title: 十年之约
+      #       link: https://www.foreverblog.cn/
+      #     - title: 开往
+      #       link: https://github.com/travellings-link/travellings
+      # - title: 主题
+      #   links:
+      #     - title: 文档
+      #       link: /docs/
+      #     - title: 源码
+      #       link: https://github.com/anzhiyu-c/hexo-theme-anzhiyu
+      #     - title: 更新日志
+      #       link: /update/
+      # - title: 导航
+      #   links:
+      #     - title: 即刻短文
+      #       link: /essay/
+      #     - title: 友链文章
+      #       link: /fcircle/
+      #     - title: 留言板
+      #       link: /comments/
+      # - title: 协议
+      #   links:
+      #     - title: 隐私协议
+      #       link: /privacy/
+      #     - title: Cookies
+      #       link: /cookies/
+      #     - title: 版权协议
+      #       link: /copyright/
+  footerBar:
+    enable: true
+    authorLink: /
+    cc:
+      enable: false
+      link: /copyright
+    linkList:
+      - link: https://github.com/anzhiyu-c/hexo-theme-anzhiyu
+        text: 主题
+      # - link: https://image.anheyu.com
+      #   text: 图床
+      # - link: https://beian.miit.gov.cn/
+      #   text: 湘ICP备-xxxxxxx号
+    subTitle:
+      enable: true
+      # Typewriter Effect (打字效果)
+      effect: true
+      # Effect Speed Options (打字效果速度参数)
+      startDelay: 300 # time before typing starts in milliseconds
+      typeSpeed: 150 # type speed in milliseconds
+      backSpeed: 50 # backspacing speed in milliseconds
+      # loop (循环打字)
+      loop: true
+      # source 调用第三方服务
+      # source: false 关闭调用
+      # source: 1  调用一言网的一句话（简体） https://hitokoto.cn/
+      # source: 2  调用一句网（简体） http://yijuzhan.com/
+      # source: 3  调用今日诗词（简体） https://www.jinrishici.com/
+      # subtitle 会先显示 source , 再显示 sub 的内容
+      source: 1
+      # 如果关闭打字效果，subtitle 只会显示 sub 的第一行文字
+      sub:
+        # - 生活明朗&#44; 万物可爱&#44; 人间值得&#44; 未来可期.
     
+    # 首页顶部相关配置
+home_top:
+  enable: true # 开关
+  timemode: date #date/updated
+  title: 兴尽悲来
+  subTitle: 识盈虚之有数
+  siteText: anheyu.com
+  category:
+    - name: 文章总览
+      path: /archives/
+      shadow: var(--anzhiyu-shadow-blue)
+      class: blue
+      icon: anzhiyu-icon-dove
+    - name: 听听音乐
+      path: /music/
+      shadow: var(--anzhiyu-shadow-red)
+      class: red
+      icon: anzhiyu-icon-fire
+    - name: 开发教程
+      path: /categories/开发教程/
+      shadow: var(--anzhiyu-shadow-green)
+      class: green
+      icon: anzhiyu-icon-book
+  default_descr: 再怎么看我也不知道怎么描述它的啦！
+  swiper:
+    enable: false
+    swiper_css: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.css #swiper css依赖
+    swiper_js: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.js #swiper js依赖
+  banner:
+    tips: Under Construction
+    title: 博客仍在建设中...单击学习~
+    image: https://s21.ax1x.com/2024/05/20/pkKYlwj.jpg
+    link: https://leetcode.cn/problemset/all-code-essentials/?listId=2cktkvj&page=1
+
+
+# Loading Animation (加载动画)
+preloader:
+  enable: true
+  # source
+  # 1. fullpage-loading
+  # 2. pace (progress bar)
+  # else all
+  source: 3
+  # pace theme (see https://codebyzach.github.io/pace/)
+  pace_css_url:
+  avatar: https://s21.ax1x.com/2024/04/25/pkPVgr6.jpg
+
+
+#envelope_comment
+#seehttps://akilar.top/posts/e2d3c450/
+envelope_comment:
+  enable: true #控制开关
+  custom_pic:
+    cover: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/violet.jpg #信笺头部图片
+    line: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/line.png #信笺底部图片
+    beforeimg: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/before.png # 信封前半部分
+    afterimg: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/after.png # 信封后半部分
+  message: #信笺正文，多行文本，写法如下
+    - 有什么想问的？
+    - 有什么想说的？
+    - 有什么想吐槽的？
+    - 哪怕是有什么想吃的，都可以告诉我哦~
+  bottom: 自动书记人偶竭诚为您服务！ #仅支持单行文本
+  height: #1024px，信封划出的高度
+  path: #【可选】comments 的路径名称。默认为 comments，生成的页面为 comments/index.html
+  front_matter: #【可选】comments页面的 front_matter 配置
+    title: 留言板
+    comments: true
+    top_img: false
+    type: envelope
+
+
+comments:
+  # Up to two comments system, the first will be shown as default
+  # Choose: Valine/Waline/Twikoo/
+  use: Twikoo # ,Waline # Twikoo/Waline
+  text: true # Display the comment name next to the button
+  # lazyload: The comment system will be load when comment element enters the browser's viewport.
+  # If you set it to true, the comment count will be invalid
+  lazyload: false
+  count: true # Display comment count in post's top_img
+  card_post_count: false # Display comment count in Home Page
+
+# Twikoo
+# https://github.com/imaegoo/twikoo
+twikoo:
+  envId: https://twikoo.aou123.xyz
+  region:
+  visitor: true
+  option:
+
+# Chat Button [recommend]
+# It will create a button in the bottom right corner of website, and hide the origin button
+chat_btn: true
+# The origin chat button is displayed when scrolling up, and the button is hidden when scrolling down
+chat_hide_show: true
+# chatra
+# https://chatra.io/
+chatra:
+  enable: true
+  id: Dn7LJo6BH552fmunJ
+
+# social settings (社交图标设置)
+# formal:
+#   name: link || icon
+social:
+   Github: https://github.com/aaaou|| anzhiyu-icon-github
+  # BiliBili: https://space.bilibili.com/372204786 || anzhiyu-icon-bilibili
+
+icons:
+  ali_iconfont_js: # 阿里图标symbol 引用链接，主题会进行加载 symbol 引用
+  fontawesome: false #是否启用fontawesome6图标
+  fontawesome_animation_css: #fontawesome_animation 如果有就会加载，示例值：https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@1.0.17/lib/assets/font-awesome-animation.min.css
+
+
+busuanzi:
+  site_uv: true
+  site_pv: true
+  page_pv: true
+
+# Console - Newest Comments
+newest_comments:
+  enable: true
+  sort_order: # Don't modify the setting unless you know how it works
+  limit: 6
+  storage: 10 # unit: mins, save data to localStorage
+  avatar: true
+
+translate:
+  enable: true
+  # 默认按钮显示文字(网站是简体，应设置为'default: 繁')
+  default: 简
+  #网站默认语言，1: 繁体中文, 2: 简体中文
+  defaultEncoding: 1
+  #延迟时间,若不在前, 要设定延迟翻译时间, 如100表示100ms,默认为0
+  translateDelay: 0
+  #当文字是简体时，按钮显示的文字
+  msgToTraditionalChinese: "繁"
+  #当文字是繁体时，按钮显示的文字
+  msgToSimplifiedChinese: "简"
+
+readmode: true
+
+# dark mode
+darkmode:
+  enable: true
+  # Toggle Button to switch dark/light mode
+  button: true
+  # Switch dark/light mode automatically (自动切换 dark mode和 light mode)
+  # autoChangeMode: 1  Following System Settings, if the system doesn't support dark mode, it will switch dark mode between 6 pm to 6 am
+  # autoChangeMode: 2  Switch dark mode between 6 pm to 6 am
+  # autoChangeMode: false
+  autoChangeMode: 1
+  # Set the light mode time. The value is between 0 and 24. If not set, the default value is 6 and 18
+  start: # 8
+  end: # 22
+
+# 双栏文章
+article_double_row: true
+
+
+# 欢迎语配置
+greetingBox:
+  enable: true #开启后必须配置下面的list对应的时间段，不然会出现小白条
+  default: 晚上好👋
+  list:
+    - greeting: 晚安😴
+      startTime: 0
+      endTime: 5
+    - greeting: 早上好鸭👋, 祝你一天好心情！
+      startTime: 6
+      endTime: 9
+    - greeting: 上午好👋, 状态很好，鼓励一下～
+      startTime: 10
+      endTime: 10
+    - greeting: 11点多啦, 在坚持一下就吃饭啦～
+      startTime: 11
+      endTime: 11
+    - greeting: 午安👋, 宝贝
+      startTime: 12
+      endTime: 14
+    - greeting: 🌈充实的一天辛苦啦！
+      startTime: 14
+      endTime: 18
+    - greeting: 19点喽, 奖励一顿丰盛的大餐吧🍔。
+      startTime: 19
+      endTime: 19
+    - greeting: 晚上好👋, 在属于自己的时间好好放松😌~
+      startTime: 20
+      endTime: 24
+
+
