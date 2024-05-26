@@ -13,7 +13,7 @@ cover: https://s21.ax1x.com/2024/05/20/pkKysN8.png
 
 比起原来的**highlight**，我更喜欢它的**抬头显示 **就是那个巨大的**代码类型和开头的三个点**
 
-以下是二者成品的区别，前者为**prismjs**，后者为**prismjs**
+以下是二者成品的区别，前者为**prismjs**，后者为**highlight**
 
 ![image-20240527004300870](https://jsdelivr.codeqihan.com/gh/Aaaou/Blog-hexo/source/_posts/imgs/imgimage-20240527004300870.png)
 
