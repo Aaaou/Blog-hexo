@@ -37,6 +37,12 @@ nav:
           link: https://chat.aou123.xyz/
           icon: https://image.anheyu.com/favicon.ico
 
+highlight_theme: mac #  darker / pale night / light / ocean / mac / mac light / false
+highlight_copy: true # copy button
+highlight_lang: true # show the code language
+highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
+highlight_height_limit: 330 # unit: px
+code_word_wrap: false
 # Sponsor/reward
 reward:
   enable: false
