@@ -50,7 +50,7 @@ python copy_config_example.py
 
 ### 虚拟环境安装
 
-发现没法直接运行，缺环境，但是为了防止langchain的依赖于我本地的两个项目冲突，重装miniconda并且创建新环境。
+发现没法直接运行，缺环境，但是为了防止langchain的依赖和我本地的两个项目冲突，重装miniconda并且创建新环境。
 
 ```shell
 cd - 
