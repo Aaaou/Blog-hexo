@@ -80,7 +80,7 @@ CDN加速用的是https://jsdelivr.codeqihan.com/
 
 是启涵大佬的镜像[自制的一个jsDelivr镜像分享 - 启涵的博客 (codeqihan.com)](https://www.codeqihan.com/post/zi-zhi-de-yi-ge-jsdelivr-jing-xiang-fen-xiang/)
 
-
+**CDN更换为https://jsd.cdn.zzko.cn/**
 
 配置完成后，在typora偏好设置中配置picgo图床
 

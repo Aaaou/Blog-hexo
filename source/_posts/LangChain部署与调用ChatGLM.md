@@ -17,7 +17,7 @@ pip install langchain==0.0.354
 
 库文件有点多，应该要花上五分钟。
 
-![image-20240529150225833](LangChain部署与调用ChatGLM.assets/image-20240529150225833-17169796253861.png)
+![image-20240529150225833](https://jsd.cdn.zzko.cn/gh/Aaaou/Blog-hexo/source/_posts/imgs/image-20240529150225833-17169796253861.png)
 
 有一些兼容性报错，可以先忽略。
 
