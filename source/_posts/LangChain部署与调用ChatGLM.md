@@ -17,7 +17,7 @@ pip install langchain==0.0.354
 
 库文件有点多，应该要花上五分钟。
 
-![image-20240529150225833](LangChain部署与调用ChatGLM.assets/image-20240529150225833.png)
+![image-20240529150225833](LangChain部署与调用ChatGLM.assets/image-20240529150225833-17169796253861.png)
 
 有一些兼容性报错，可以先忽略。
 
@@ -40,7 +40,7 @@ python copy_config_example.py
 
 把auto改成cuda，默认使用gpu计算
 
-![image-20240529151251227](LangChain部署与调用ChatGLM.assets/image-20240529151251227.png)
+![image-20240529151251227](https://jsd.cdn.zzko.cn/gh/Aaaou/Blog-hexo/source/_posts/imgs/image-20240529151251227.png)
 
 之后下滑，找到我们的GLM3-6B路径，改成本地的
 
@@ -84,7 +84,7 @@ conda create -n langchain python==3.11
 conda activate langchain
 ```
 
-![image-20240529153001210](LangChain部署与调用ChatGLM.assets/image-20240529153001210.png)
+![image-20240529153001210](https://jsd.cdn.zzko.cn/gh/Aaaou/Blog-hexo/source/_posts/imgs/image-20240529153001210.png)
 
 ```shell
 cd ../..
@@ -106,11 +106,11 @@ pip install -r requirements_webui.txt
 python startup.py -a
 ```
 
-![image-20240529154655651](LangChain部署与调用ChatGLM.assets/image-20240529154655651.png)
+![image-20240529154655651](https://jsd.cdn.zzko.cn/gh/Aaaou/Blog-hexo/source/_posts/imgs/image-20240529154655651.png)
 
-![image-20240529161128515](LangChain部署与调用ChatGLM.assets/image-20240529161128515.png)
+![image-20240529161128515](https://jsd.cdn.zzko.cn/gh/Aaaou/Blog-hexo/source/_posts/imgs/image-20240529161128515.png)
 
-![image-20240529161438688](LangChain部署与调用ChatGLM.assets/image-20240529161438688.png)
+![image-20240529161438688](https://jsd.cdn.zzko.cn/gh/Aaaou/Blog-hexo/source/_posts/imgs/image-20240529161438688.png)
 
 
 
@@ -120,15 +120,15 @@ python startup.py -a
 
 况且，导出建议使用cpu导出，不然会出现阿里云服务器GPU核未初始化的问题
 
-![image-20240529163425409](LangChain部署与调用ChatGLM.assets/image-20240529163425409.png)
+![image-20240529163425409](https://jsd.cdn.zzko.cn/gh/Aaaou/Blog-hexo/source/_posts/imgs/image-20240529163425409.png)
 
-![image-20240529163339254](LangChain部署与调用ChatGLM.assets/image-20240529163339254.png)
+![image-20240529163339254](https://jsd.cdn.zzko.cn/gh/Aaaou/Blog-hexo/source/_posts/imgs/image-20240529163339254.png)
 
 之后修改对应的配置文件
 
-![image-20240529163528086](LangChain部署与调用ChatGLM.assets/image-20240529163528086.png)
+![image-20240529163528086](https://jsd.cdn.zzko.cn/gh/Aaaou/Blog-hexo/source/_posts/imgs/image-20240529163528086.png)
 
-![image-20240529163514672](LangChain部署与调用ChatGLM.assets/image-20240529163514672.png)
+![image-20240529163514672](https://jsd.cdn.zzko.cn/gh/Aaaou/Blog-hexo/source/_posts/imgs/image-20240529163514672.png)
 
 先剪切掉模型配置的"chatglm3-6b",因为langchain会试图同时加载两个模型，显存会爆。
 
@@ -142,7 +142,7 @@ python startup.py -a
 
 
 
-![image-20240529164340292](LangChain部署与调用ChatGLM.assets/image-20240529164340292.png)
+![image-20240529164340292](https://jsd.cdn.zzko.cn/gh/Aaaou/Blog-hexo/source/_posts/imgs/image-20240529164340292.png)
 
 
 
