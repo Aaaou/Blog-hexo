@@ -31,10 +31,15 @@ nav:
         - name: 博客
           link: https://blog.aou123.xyz/
           icon: /img/favicon.ico
-    - title: 玩具项目
+    - title: 玩具项目1
       item:
         - name: Next-Gpt本地部署
           link: https://chat.aou123.xyz/
+          icon: https://image.anheyu.com/favicon.ico
+    - title: 玩具项目2
+      item:
+        - name: 前端动漫图像超分
+          link: https://sur.aou123.xyz/
           icon: https://image.anheyu.com/favicon.ico
 
 highlight_theme: mac #  darker / pale night / light / ocean / mac / mac light / false
